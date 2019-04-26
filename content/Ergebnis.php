@@ -14,8 +14,12 @@
 	$sql = "SELECT * FROM auto WHERE id = 2";
 	
 	$tst = mysqli_query ($con, $sql);
+	
 
-	echo $sql;
+	while($row = mysqli_fetch_array($tst))
+     {
+        print_r($row);
+     } 
 
 	?>
 	
