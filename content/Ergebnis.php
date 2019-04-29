@@ -11,7 +11,7 @@
 	
 	<?php include("../register/connect.php"); 
 
-	$sql = "SELECT * FROM auto WHERE id = 2";
+	$sql = "SELECT * FROM auto ORDER BY RAND() LIMIT 1";
 	
 	$tst = mysqli_query ($con, $sql);
 	
