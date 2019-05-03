@@ -17,10 +17,12 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Datenbank: `projekt_auto`
 --
+CREATE DATABASE IF NOT EXISTS `projekt_auto` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `projekt_auto`;
+
 
 -- --------------------------------------------------------
 
