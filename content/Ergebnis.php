@@ -18,7 +18,7 @@
 	
 		$tst = mysqli_query ($con, $sql);
 	
-		while($row = mysqli_fetch_array($tst))
+		while($row = mysqli_fetch_array($tst)) //Zugriff auf Daten der mysqli_query Funktion
 		{
 
 		var_export($row['marke'].' '.$row['modell']); //Änderung der Ausgabe der Variable, Reduktion auf Ausgabe und Modell
